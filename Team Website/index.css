@@ -1,0 +1,17 @@
+* {
+    /*box-sizing: border-box;*/
+}
+
+nav
+{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+/*
+ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}*/
+
