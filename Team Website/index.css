@@ -9,9 +9,12 @@ nav
     justify-content: space-around;
     align-items:flex-start;
 }
-/*
+
 ul{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}*/
+    word-spacing: 10px;
+}
+
+a{
+    word-spacing: normal;
+}
 
