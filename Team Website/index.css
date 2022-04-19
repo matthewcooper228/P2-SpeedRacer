@@ -1,0 +1,20 @@
+* {
+    /*box-sizing: border-box;*/
+}
+
+nav
+{
+
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+ul{
+    word-spacing: 10px;
+}
+
+a{
+    word-spacing: normal;
+}
+
