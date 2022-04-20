@@ -1,20 +1,66 @@
 * {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 nav
 {
-
+    margin-top: .5rem;
+    padding: .75rem;
+    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items:flex-start;
+}
+
+header img
+{
+    float:left;
+    margin-right: 2em;
+    width: 9%;
+}
+
+.president-frame
+{
+    position: relative;
+    text-align: center;
+}
+
+.leo-font
+{
+    font-family: Papyrus,fantasy; 
+}
+
+.presidunt-name
+{
+    position: absolute;
+    bottom: -5em;
+    left: 4px;
+    color:aquamarine;
+    font-size:19px;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
 }
 
 ul{
     word-spacing: 10px;
 }
 
+.cool
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Webdings;
+}
+
 a{
     word-spacing: normal;
+}
+
+h6
+{
+    opacity: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
