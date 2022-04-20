@@ -1,0 +1,98 @@
+/* mobile first design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;  
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+nav ul a {
+    color: white;
+}
+#members {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#members div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#members ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 80px;
+    margin: 5px;   
+}
+#contact, footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+#contact h2 {
+    padding-bottom: 1rem;
+}
+#contact form label,
+#contact form input,
+#contact form textarea,
+#contact form button {
+    display: block;
+}
+#contact form input,
+#contact form textarea,
+#contact form button {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}
+button {
+    background-color: white;
+    color: black;
+    border-radius: 0;
+    border: none;
+}
+@media screen and (min-width: 600px) {
+    #contact form input,
+    #contact form textarea,
+    #contact form button {
+        max-width: 400px;
+    }
+    #members div ul {
+        max-width: 800px;
+    }
+    #members ul li a {
+        width: 30vw;
+    }
+}
